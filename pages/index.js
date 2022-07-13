@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { Text, Heading } from '@chakra-ui/react'
 
 export default function Home() {
   return (
@@ -9,13 +10,13 @@ export default function Home() {
         </Head>
 
         <main>
-          <h1 className="title">
+          <Heading className="title">
             Welcome to <a href="https://nextjs.org">Next.js!</a>
-          </h1>
+          </Heading>
 
-          <p className="description">
+          <Text>
             Get started by editing <code>pages/index.js</code>
-          </p>
+          </Text>
 
           <div className="grid">
             <a href="https://nextjs.org/docs" className="card">
